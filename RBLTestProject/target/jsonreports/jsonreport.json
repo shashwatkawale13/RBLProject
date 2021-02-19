@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-18T06:47:49.587Z",
+        "line": 3,
+        "name": "Error message test",
+        "description": "",
+        "id": "open-account;error-message-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41267000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open and page visited",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.browser_is_open_and_page_visited()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22563000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Open Account button",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.i_click_on_open_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should prompt to enter email address and mobile number",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.it_should_prompt_to_enter_email_address_and_mobile_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter invalid email id",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.i_enter_invalid_email_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1168000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on get started button",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.click_on_get_started_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3244000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "error message should appear",
+            "match": {
+              "location": "stepDefinitions.OpenAccountErrorTest.error_message_should_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open Account",
+    "description": "",
+    "id": "open-account",
+    "keyword": "Feature",
+    "uri": "file:RBLFeatures/OpenAccountFeature.feature",
+    "tags": []
+  }
+]
