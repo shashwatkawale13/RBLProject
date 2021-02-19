@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: RunnerFile.RestAPIRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.279 s <<< FAILURE! - in RunnerFile.RestAPIRunner
+Scenario: Details of account holder.Given Get the details of account holder  Time elapsed: 0.007 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+
+Scenario: Details of account holder  Time elapsed: 0.008 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+
